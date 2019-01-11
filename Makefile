@@ -13,7 +13,7 @@ CFLAGS += -DBOARD=USER_BOARD -DDEBUG -fdata-sections -ffunction-sections -fdata-
 CFLAGS += -Wl,--start-group -Wl,-lm -Wl,--end-group -Wl,--gc-sections -Wl,--relax
 CFLAGS += $(foreach includedir,$(INCLUDE),-I$(includedir)) # Add each dir in ${INCLUDE} as an include directory.
 
-# Flags not found in Atmel Studio's build output (but should be there.
+# Flags not found in Atmel Studio's build output (but should be there).
 EXTRAFLAGS = -Wextra -pedantic -Wno-expansion-to-defined -Wno-int-to-pointer-cast -Werror
 
 # Quirk; specify non-file targets.
