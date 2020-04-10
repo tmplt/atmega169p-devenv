@@ -1,3 +1,7 @@
+Have a question, some input, or need help? Feel free to [create an issue](https://github.com/tmplt/atmega169p-devenv/issues/new) or send me an email at <vikson-6@student.ltu.se>.
+
+---
+
 This directory contains all necessary headers and a Makefile to program on the Atmel AVR Butterfly.
 Each `.c`-file placed into this directory is compiled by its own into an `.o`-file.
 The main executable is then created by linking these object files.
